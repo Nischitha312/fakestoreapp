@@ -1,0 +1,9 @@
+.star-rating { display: inline-flex; align-items: center; gap: var(--sp-sm); }
+.star-rating__stars { display: flex; gap: 2px; }
+.star { flex-shrink: 0; stroke: none; }
+.star-rating--sm .star { width: 12px; height: 12px; }
+.star-rating--md .star { width: 16px; height: 16px; }
+.star-rating--lg .star { width: 20px; height: 20px; }
+.star--full  { fill: var(--clr-accent); }
+.star--empty { fill: var(--clr-text-faint); }
+.star-rating__count { font-size: 0.78rem; color: var(--clr-text-muted); }

@@ -1,0 +1,7 @@
+.notfound { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; padding: var(--sp-3xl); }
+.notfound__content { display: flex; flex-direction: column; align-items: center; gap: var(--sp-md); animation: fadeUp var(--t-slow) var(--ease-out) both; }
+.notfound__code { font-family: var(--font-display); font-size: 8rem; font-weight: 900; color: var(--clr-accent); opacity: 0.2; line-height: 1; }
+.notfound__title { font-family: var(--font-display); font-size: 2rem; font-weight: 600; }
+.notfound__sub { color: var(--clr-text-muted); font-size: 0.95rem; }
+.notfound__btn { margin-top: var(--sp-md); padding: 12px 28px; background: var(--clr-accent); color: var(--clr-bg); border-radius: var(--r-md); font-weight: 600; }
+.notfound__btn:hover { background: var(--clr-accent-dim); }

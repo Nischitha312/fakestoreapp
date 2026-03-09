@@ -1,0 +1,17 @@
+.sort-select { position: relative; display: flex; align-items: center; }
+.sort-select__icon { position: absolute; left: 12px; width: 16px; height: 16px; color: var(--clr-text-muted); pointer-events: none; }
+.sort-select__select {
+  padding: 10px 16px 10px 38px;
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--r-pill);
+  color: var(--clr-text);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  appearance: none;
+  cursor: pointer;
+  min-width: 190px;
+  transition: border-color var(--t-fast) ease;
+}
+.sort-select__select:focus { outline: none; border-color: var(--clr-accent-dim); }
+.sort-select__select option { background: var(--clr-surface-2); color: var(--clr-text); }

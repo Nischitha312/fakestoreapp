@@ -1,0 +1,23 @@
+.skeleton {
+  background: linear-gradient(90deg,
+    var(--clr-surface) 0%,
+    var(--clr-surface-2) 40%,
+    var(--clr-border) 50%,
+    var(--clr-surface-2) 60%,
+    var(--clr-surface) 100%
+  );
+  background-size: 200% auto;
+  animation: shimmer 1.8s linear infinite;
+}
+.product-card-skeleton {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.product-card-skeleton__body {
+  padding: var(--sp-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-sm);
+}
