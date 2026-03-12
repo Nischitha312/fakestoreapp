@@ -26,7 +26,8 @@ function DetailSkeleton() {
 
 export default function ProductDetailPage() {
   const { id } = useParams();
-  const navigate = useNavigate();
+  // eslint-disable-next-line no-unused-vars
+const navigate = useNavigate();
   const { product, loading, error } = useProduct(id);
   const { products } = useProducts();
   const { addItem, items } = useCart();
